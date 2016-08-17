@@ -1,12 +1,12 @@
-Feature: Search
+Feature: Search Google
   In order to find pages on the web
   As an information seeker
   I want to be able to search using keywords
 
   Scenario Outline: Search for cucumber
     Given I open Google
-    And I query on "<queryText>"
-    Then I should see "<queryResults>"
+    When I query on "<queryText>"
+    Then I should see "<queryResults>" on the page returned
 
     Examples:
     |queryText     |queryResults                                |
