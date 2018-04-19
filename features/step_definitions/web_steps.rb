@@ -4,7 +4,7 @@ end
 
 When /^I query on "([^"]*)"$/ do |text|
   fill_in "q", :with => text
-  click_button('Search')
+  click_button('Google Search')
 end
 
 Then /^I should see "([^"]*)" on the page returned/ do |text|

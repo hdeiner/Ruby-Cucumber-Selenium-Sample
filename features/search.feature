@@ -11,5 +11,5 @@ Feature: Search Google
     Examples:
     |queryText     |queryResults                                |
     |cucumber bdd  |Cucumber is for Behaviour-Driven Development|
-    |Bernie Sanders|Bernie Sanders for President                |
+    |Bernie Sanders|Senator Bernie Sanders of Vermont           |
     |Howard Deiner |Deinersoft, Inc.                            |
